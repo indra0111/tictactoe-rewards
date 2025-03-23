@@ -2,7 +2,7 @@
 const nextConfig = {
   output: "export", // Ensures static export
   distDir: "out",   // Output directory
-  basePath: process.env.NODE_ENV === "production" ? "/tictactoe-rewards" : "", // Only use basePath in production
+  basePath: "", // or remove this line entirely
   images: {
     unoptimized: true, // Required if using Next.js images
   },
