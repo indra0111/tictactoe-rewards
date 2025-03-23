@@ -444,7 +444,7 @@ const TicTacToe = () => {
         <div className="fixed inset-0 flex items-center justify-center p-4">
           <Dialog.Panel className="relative bg-white rounded-xl p-8 max-w-md mx-auto transform transition-all scale-100">
             <Dialog.Title className="text-2xl font-bold text-center mb-4 text-yellow-500">
-              🤝 It's a Draw! 🤝
+              🤝 It&apos;s a Draw! 🤝
             </Dialog.Title>
             <Dialog.Description className="text-center mb-6">
               Good game! Ready for another round?
